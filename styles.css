@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.subtale {
+    background: rgba(17, 17, 17, var(--tw-bg-opacity));
+}
+
+#projects:hover .project::after, .project:hover::before {
+    opacity: 1;
+}
+
+.project {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.project-content {
+    background: rgba(17, 17, 17, var(--tw-bg-opacity));
+}
+
+.project::before, .project::after {
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 500ms;
+}
+
+.project::before {
+    background: radial-gradient(
+        800px circle at var(--mouse-x) var(--mouse-y),
+        rgba(255, 255, 255, 0.06),
+        transparent 40%
+    );
+    z-index: 30;
+}
+
+.project::after {
+    background: radial-gradient(
+        600px circle at var(--mouse-x) var(--mouse-y),
+        rgba(255, 255, 255, 0.4),
+        transparent 40%
+    );
+    z-index: 10;
+}
+
+

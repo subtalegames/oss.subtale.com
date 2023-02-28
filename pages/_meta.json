@@ -1,0 +1,9 @@
+{
+    "index": {
+        "title": "Home",
+        "type": "page",
+        "theme": {
+            "timestamp": false
+        }
+    }
+}
