@@ -21,6 +21,12 @@ const projects = [
         homepage: 'https://skoll.subtale.com',
     },
     {
+        glyph: '🐺',
+        name: 'Fenrir',
+        description: 'Content management system for video game barks',
+        homepage: 'https://fenrir.subtale.com',
+    },
+    {
         glyph: '📚',
         name: 'Opinions',
         description: 'Opinionated knowledge base for game development',
