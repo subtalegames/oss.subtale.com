@@ -2,24 +2,24 @@ import Link from "next/link"
 import Script from "next/script"
 
 const projects = [
-    {
+    /*{
         glyph: '💬',
         name: 'Bragi',
         description: 'Branching dialog framework for video games',
         homepage: 'https://bragi.subtale.com',
-    },
+    },*/
     {
         glyph: '🧠',
         name: 'Mímir',
         description: 'Contextual query engine for dynamic video games',
         homepage: 'https://mimir.subtale.com',
     },
-    {
+    /*{
         glyph: '🗓️',
         name: 'Sköll',
         description: 'Flexible DateTime system for video games ',
         homepage: 'https://skoll.subtale.com',
-    },
+    },*/
     {
         glyph: '🐺',
         name: 'Fenrir',
